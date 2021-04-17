@@ -1,0 +1,79 @@
+body {
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1204px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  background-color: #f3f3f3;
+  height: 191px;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.header__nav {
+  background: #fff;
+  border-radius: 50px;
+  width: 760px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.figure__logo {
+  margin-left: -50px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  color: #474748;
+}
+
+.img {
+  margin-right: 12px;
+}
+
+.events {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.events__texts {
+  max-width: 550px;
+  margin-top: 80px;
+}
+
+.ilustration {
+  position: absolute;
+  right: 0;
+  margin-top: 180px;
+}
+
+.events__texts .texts__description {
+  margin-top: 15px;
+}
