@@ -60,11 +60,13 @@
         <p class="texts__description">Em poucos minutos você terá acesso a um sistema completo para automatizar inscrições, pagamentos e muito mais!</p>
         <p class="texts__description">Vamos precisar apenas de mais algumas informações para iniciar seu novo sistema de eventos, tudo bem? :)</p>
         <label class="texts__event-title" for="event">Nome do Evento*</label>
-        <input class="texts__event" name="event" type="text" placeholder="Qual será o nome do evento?">
-        <button class="texts__btn">
-          Avançar
-          <img class="btn__arrow" src="/assets/vector.png" alt="arrow">
-        </button>
+        <div class="wrap">
+          <input class="texts__event" name="event" type="text" placeholder="Qual será o nome do evento?">
+          <button class="texts__btn">
+            Avançar
+            <img class="btn__arrow" src="/assets/vector.png" alt="arrow">
+          </button>
+        </div>
       </section>
       <div class="ilustration">
         <img src="/assets/Illustration.png" alt="">
@@ -72,8 +74,17 @@
     </main>
   </div>
 
-  <footer>
-    <p>4.events	&copy; 2020 - Todos os Direitos Reservados</p>
-  </footer>
+  <div class="container">
+    <footer class="footer">
+      <p>4.events	&copy; 2020 - Todos os Direitos Reservados</p>
+      <div class="footer__translate">
+        <img src="./assets/translation 1.png" alt="translation">
+        <select class="translate__select">
+          <option value="PT">PT</option>
+          <option value="EUA">EUA</option>
+        </select>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
