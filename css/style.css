@@ -58,7 +58,6 @@ body {
 }
 
 .events {
-  position: relative;
   width: 100%;
   display: flex;
 }
@@ -113,21 +112,24 @@ body {
 }
 
 .ilustration {
-  position: absolute;
-  right: 0;
-  top: 170px;
+  margin-top: 165px;
 }
 
 .events__texts .texts__description {
-  margin: 15px 0 42px 0;
+  margin: 15px 0 15px 0;
   color: #212121;
+}
+
+.events__texts .texts__description-2 {
+  color: #212121;
+  margin-bottom: 42px;
 }
 
 .footer {
   border-top: 2px solid #ccc;
   display: flex;
   justify-content: space-between;
-  margin-top: 28rem;
+  margin-top: 76px;
   width: 100%;
 }
 
